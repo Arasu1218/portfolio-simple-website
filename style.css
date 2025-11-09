@@ -1,0 +1,63 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+    body {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container{
+    padding: 40px;
+}
+.selection-one__name:hover{
+    color: red;
+}
+.selection-one__role:hover{
+    color: yellowgreen;
+}
+.selection-one{
+    background-color: black;color: white;padding: 20px;
+}
+.selection-one__conatct{
+    background-color: brown;color: white;text-decoration: none;padding:8px;padding-top: 1px;display: inline;margin-top: 4px;
+}
+.selection-one__conatct:hover{
+    color: black;
+}
+.selection-one__name{
+    font-size:40px ;
+}
+.selection-one__role{
+    font-size:26px ;margin-top: 9px;
+}
+.selection-two, .selection-three,.selection-four,.selection-five{
+    margin-top: 20px;
+}
+.selection-two__desc,.selection-three__pov,.selection-four__tittle{
+    margin-top:20px;
+}
+.selection-five{
+    background-color: black;color: white; padding: 10px;
+}
+.selection-five__tittle a{
+    color: rgb(165, 221, 242);
+}
+.selection-three li,.selection-four li{
+    list-style: none;
+}
+.selection-three{
+    background-color: #6462FD;
+    border-radius: 4px; 
+    color: black;display: block; padding: 20px;
+
+}
+.selection-four{
+    background-color: rgb(246, 207, 135); border-radius: 4%;padding: 14px;height: 200px;color: black; display: block;
+}
+.conatct-form{
+    margin-top: 10px;
+}
+.conatct-form__input,.conatct-form__input,.conatct-form__textarea,.conatct-form__sumbit{
+    margin-top: 10px;
+}
